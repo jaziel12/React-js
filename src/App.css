@@ -9,6 +9,10 @@
 .link-nav{
   color: aliceblue;
 }
+.title{
+  text-align: center;
+  background-color: aqua;
+}
 
 /* #root {
   max-width: 1280px;

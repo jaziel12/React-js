@@ -1,5 +1,8 @@
 import React from "react";
+import CardWidget from "./cardtWidget/CardWidget";
 import logo from "./images/logo.jpg";
+
+
 const Header = () => {
     return(
             <div className="container">
@@ -22,6 +25,10 @@ const Header = () => {
                     <li className="nav-item">
                         <a className="nav-link link-nav">Contacto</a>
                     </li>
+                    <div>
+                    <CardWidget />
+                    </div>
+                    
                 </ul>
             </div>
     )
